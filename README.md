@@ -11,7 +11,7 @@ For easiest development, we use the the rivet Docker containers. Check out the r
 source env.sh
 
 # Building the plugin
-rivet-build RivetCMS_2020_monojet.so CMS_2020_monojet.cc
+rivet-build RivetCMS_2020_monojet.so plugin/CMS_2020_monojet.cc
 
 # Printing meta info
 rivet --show-analysis CMS_2020_monojet --analysis-path=$PWD
